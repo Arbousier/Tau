@@ -16,7 +16,9 @@ class SubscribersController < ApplicationController
     @subscriber.work_field = params[:subscriber][:work_field]
     @subscriber.comment = params[:subscriber][:comment]
     if @subscriber.save
-      redirect_to :root, :notice => "Merci #{@subscriber.firstname} !"
+      Notification.new_sub(@subscriber.id).deliver
+      Notification.thanks_new(@subscriber.id).deliver
+      redirect_to :root, :notice => "Merci #{@subscriber.firstname} ! Vous allez recevoir un email de confirmation"
       return
     else
       render :action => "new"
