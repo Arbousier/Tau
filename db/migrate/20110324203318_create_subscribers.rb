@@ -7,6 +7,7 @@ class CreateSubscribers < ActiveRecord::Migration
       t.string :interest
       t.string :status
       t.string :work_field
+      t.text :comment
 
       t.timestamps
     end

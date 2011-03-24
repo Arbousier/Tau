@@ -1,0 +1,4 @@
+fr:
+  errors:
+    messages:
+      taken: "est déjà pris !"

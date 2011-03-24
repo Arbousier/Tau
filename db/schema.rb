@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20110324203318) do
     t.string   "interest"
     t.string   "status"
     t.string   "work_field"
+    t.text     "comment"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
