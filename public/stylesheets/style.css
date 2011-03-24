@@ -2,23 +2,83 @@
   font-family: "Cuprum", "Quattrocento", "Adobe Caslon Pro", "Hoefler Text", Garamond, serif; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Nova Cut", "Expletus Sans", "Myriad Pro", Corbel, "Helvetica Neue", Helvetica, "Lucida Grande", Verdana, sans-serif; }
+  font-family: "Indie Flower", "Expletus Sans", "Myriad Pro", Corbel, "Helvetica Neue", Helvetica, "Lucida Grande", Verdana, sans-serif; }
+
+h1 a {
+  font-size: 32pt;
+  color: #b6372c;
+  margin-left: 60px;
+  margin-top: 20px;
+  font-family: "Permanent Marker";
+  -moz-text-shadow: 0px 3px 5px #222222;
+  -webkit-text-shadow: 0px 3px 5px #222222;
+  text-shadow: 0px 3px 5px #222222; }
+
+h2 {
+  font-size: 20pt; }
 
 a, p, li {
-  font-size: 12pt; }
+  font-size: 14pt; }
 
 .clear {
   clear: both; }
 
+body {
+  background: #dddddd; }
+
+form, select, text-field, input {
+  font-size: 11pt;
+  padding: 3px; }
+
 a {
   text-decoration: none;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #b6372c; }
 
-#banner, #footer {
-  width: 100%;
-  padding: 10px;
+#main_grid {
+  margin-top: 30px;
+  margin-bottom: 30px;
   background: #333333;
-  color: white; }
+  color: #eeeeee;
+  -moz-box-shadow: 0px 10px 15px #111111;
+  -webkit-box-shadow: 0px 10px 15px #111111;
+  box-shadow: 0px 10px 15px #111111;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px; }
 
 h2 {
   margin-top: 15px; }
+
+div.sub_form {
+  background: #444444;
+  padding: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px; }
+
+div.zap {
+  padding-top: 10px; }
+
+div.citation {
+  padding: 15px;
+  font-family: cuprum;
+  font-size: 12pt;
+  background: #555555;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+div.citation li.citation {
+  padding-top: 15px;
+  font-size: 12pt; }
+
+p.note {
+  text-align: right;
+  margin-bottom: -15px; }
+
+#footer {
+  margin-top: 20px;
+  text-align: right; }

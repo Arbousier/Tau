@@ -1,0 +1,41 @@
+
+%div.sub_form
+  = form_for @subscriber do |f|
+    -if @subscriber.errors.any?
+      #error_explanation
+        %h2= "#{pluralize(@subscriber.errors.count, "error")} a empéché votre inscription:"
+        %ul
+          - @subscriber.errors.full_messages.each do |msg|
+            %li= msg
+
+    %div.grid_5.alpha.prefix_1
+      %p
+        Prénom :
+        = f.text_field :firstname
+
+      %p
+        Nom :
+        = f.text_field :lastname
+
+      %p
+        Email :
+        = f.text_field :email
+
+    %div.grid_7
+      %p
+        Domaine de travail :
+        = f.text_field :work_field
+
+      %p
+        = f.label "Status"
+        = f.select :status, Settings.status
+
+      %p
+        = f.label "Formule"
+        = f.select :interest, Settings.interests
+    %div.clear
+
+    %div.grid_4.prefix_1
+      .actions
+        = f.submit "M'inscrire"
+    %div.clear

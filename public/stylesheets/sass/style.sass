@@ -1,7 +1,14 @@
 $base_font: 'Cuprum', 'Quattrocento', 'Adobe Caslon Pro', 'Hoefler Text', Garamond, serif
-$title_font: 'Nova Cut', 'Expletus Sans', 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana, sans-serif
+$title_font: 'Indie Flower', 'Expletus Sans', 'Myriad Pro', Corbel, 'Helvetica Neue', Helvetica, 'Lucida Grande', Verdana, sans-serif
 
-$background_banner: #333
+$background_banner: #DDD
+$form_bg: #444
+$main_bg: #DDD
+$content_bg: #333
+$link_color: #B6372C
+
+$shadow_1: 0px 10px 15px #111
+$shadow_2: 0px 3px 5px #222
 
 $color_banner: #FFF
 
@@ -11,21 +18,82 @@ $color_banner: #FFF
 h1, h2, h3, h4, h5
   font-family: $title_font
 
+h1 a
+  font-size: 32pt
+  color: $link_color
+  margin-left: 60px
+  margin-top: 20px
+  font-family: "Permanent Marker"
+  -moz-text-shadow: $shadow_2
+  -webkit-text-shadow: $shadow_2
+  text-shadow: $shadow_2
+
+h2
+  font-size: 20pt
+
 a, p, li
-  font-size: 12pt
+  font-size: 14pt
 
 .clear
   clear: both
 
+body
+  background: $main_bg
+
+form, select, text-field, input
+  font-size: 11pt
+  padding: 3px
+
 a
   text-decoration: none
   font-weight: bold
+  color: $link_color
 
-#banner, #footer
-  width: 100%
-  padding: 10px
-  background: $background_banner
-  color: $color_banner
+#main_grid
+  margin-top: 30px
+  margin-bottom: 30px
+  background: $content_bg
+  color: #EEE
+  -moz-box-shadow: $shadow_1
+  -webkit-box-shadow: $shadow_1
+  box-shadow: $shadow_1
+  -moz-border-radius: 15px
+  -webkit-border-radius: 15px
+  border-radius: 15px
 
 h2
   margin-top: 15px
+
+div.sub_form
+  background: $form_bg
+  padding: 10px
+  -moz-border-radius: 15px
+  -webkit-border-radius: 15px
+  border-radius: 15px
+
+div.zap
+  padding-top: 10px
+
+div.citation
+  padding: 15px
+  font-family: cuprum
+  font-size: 12pt
+  background: #555
+  -moz-border-radius: 15px
+  -webkit-border-radius: 15px
+  border-radius: 15px
+  margin-left: 20px
+  margin-right: 20px
+
+
+div.citation li.citation
+  padding-top: 15px
+  font-size: 12pt
+
+p.note
+  text-align: right
+  margin-bottom: -15px
+
+#footer
+  margin-top: 20px
+  text-align: right
