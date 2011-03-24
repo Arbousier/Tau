@@ -15,4 +15,14 @@ class Subscriber < ActiveRecord::Base
   def name
     return "#{self.firstname} #{self.lastname}"
   end
+
+  def to_s
+    llm = ""
+    llm += "#{self.name} : #{self.email}\n"
+    llm += "#{self.status}\n"
+    llm += "#{self.interest}\n"
+    llm += "#{self.work_field}\n\n"
+    llm += "#{self.comment}\n"
+    return llm
+  end
 end
