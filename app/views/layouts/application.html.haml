@@ -1,0 +1,26 @@
+!!!
+%html
+%head
+%title Coworking
+%link{:href => "http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT", :rel => "stylesheet", :type => "text/css"}
+%link{:href => "http://fonts.googleapis.com/css?family=Molengo", :rel => "stylesheet", :type => "text/css"}
+%link{:href => "http://fonts.googleapis.com/css?family=Cuprum", :rel => "stylesheet", :type => "text/css"}
+= stylesheet_link_tag "reset.css"
+= stylesheet_link_tag "text.css"
+= stylesheet_link_tag "960.css"
+= stylesheet_link_tag "style"
+= javascript_include_tag "jquery.js", "rails.js", "application.js"
+= csrf_meta_tag
+%body
+%div#banner
+  %div.container_16{:id => "banner_grid"}
+    %div.grid_16
+      %h1 Coworking
+%div.container_16{:id => "main"}
+  = yield
+%div.clear
+%div#footer
+  %div.container_16{:id => "footer_grid"}
+    %div.grid_16.footer
+      Coworking
+      = link_to "Arbousier.info", "http://www.arbousier.info"
