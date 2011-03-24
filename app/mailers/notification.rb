@@ -3,11 +3,11 @@ class Notification < ActionMailer::Base
 
   def new_sub(sub_id)
     @subscriber = Subscriber.find(sub_id)
-    mail(:to => Settings.contact_email, :subject => "#{Settings.site_name} : Nouvel inscrit : #{@subject.name}")
+    mail(:to => Settings.contact_email, :subject => "#{Settings.site_name} : Nouvel inscrit : #{@subscriber.name}")
   end
 
   def thanks_new(sub_id)
     @subscriber = Subscriber.find(sub_id)
-    mail(:to => @subject.email, :subject => "#{Settings.site_name} : confirmation inscription #{@subject.name}")
+    mail(:to => @subject.email, :subject => "#{Settings.site_name} : confirmation inscription #{@subscriber.name}")
   end
 end
