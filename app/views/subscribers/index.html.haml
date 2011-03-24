@@ -1,5 +1,26 @@
 %div.grid_14.prefix_1
   %h2 Subscribers
+  
+  %ul
+    %li
+      Full :
+      = Subscriber.permanent.count
+      = "(#{Subscriber.permanent.count * Settings.price.permanent} € / m)"
+    %li
+      Medium :
+      = Subscriber.medium.count
+      = "(#{Subscriber.medium.count * Settings.price.medium} € / m)"
+    %li
+      Short :
+      = Subscriber.short.count
+      = "(#{Subscriber.short.count * Settings.price.short} € / m)"
+
+    %li
+      Total :
+      - count = @subscribers.count
+      = count
+      = " (#{Subscriber.short.count * Settings.price.short + Subscriber.medium.count * Settings.price.medium + Subscriber.permanent.count * Settings.price.permanent} € / m)"
+  
   %table
     %tr
       %th Nom

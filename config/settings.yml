@@ -9,3 +9,7 @@ status:
   - tpe (max 4 personnes)
   - étudiant(e) / thésard
   - autre
+price:
+  permanent: 100
+  medium: 60
+  short: 20
