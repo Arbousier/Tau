@@ -1,0 +1,14 @@
+%div.grid_14.prefix_1
+  %h2 Subscribers
+  %table
+    %tr
+      %th Nom
+      %th email
+      %th Status
+      %th Formule
+      %th Domaine
+      %th
+    - i = 0
+    - @subscribers.each do |subscriber|
+      = render 'subscriber', :subscriber => subscriber, :i => i
+      - i += 1

@@ -1,0 +1,10 @@
+- thec = ""
+- if i.odd?
+  - thec = "alt"
+%tr{:class => thec}
+  %td= subscriber.name
+  %td= subscriber.email
+  %td= subscriber.status
+  %td= subscriber.interest
+  %td= subscriber.work_field
+  %td= link_to 'Supprimer', subscriber, :confirm => 'Etes vous sûr ?', :method => :delete

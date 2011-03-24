@@ -27,7 +27,13 @@ class SubscribersController < ApplicationController
   end
 
   def index
-    @subscribers = Subscriber.all
+    @subscribers = Subscriber.find(:all, :order => "interest ASC")
+  end
+
+  def destroy
+    @subscriber = Subscriber.find(params[:id])
+    @subscriber.destroy
+    redirect_to :action => :index
   end
 
   protected

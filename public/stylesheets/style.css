@@ -82,3 +82,20 @@ p.note {
 #footer {
   margin-top: 20px;
   text-align: right; }
+
+table tr {
+  border: 1px solid white;
+  padding: 5px; }
+
+table td, table th {
+  padding: 8px; }
+
+tr.alt {
+  background: #555555; }
+
+td a, td, th {
+  font-size: 11pt; }
+
+table th {
+  background: white;
+  color: #333333; }
