@@ -99,3 +99,7 @@ td a, td, th {
 table th {
   background: white;
   color: #333333; }
+
+em.subtitle {
+  font-size: 12pt;
+  color: #555555; }
