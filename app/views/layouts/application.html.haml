@@ -18,9 +18,9 @@
   %div.container_16{:id => "main_grid"}
     %div#banner
       %div.grid_16
-        %h1= link_to Settings.site_name, root_url
+        %h1= link_to "&#964;".html_safe, root_url
         %div.grid_6.alpha.prefix_1
-          %em.subtitle (verbe: move or cause to move rapidly)
+          %em.subtitle 	&#952; + 11 = &#964;
         = notice
         = alert
       %div.clear
@@ -28,6 +28,7 @@
     %div.clear
     %div#footer
       %div.grid_16.footer
-        = Settings.site_name
-        = link_to "Arbousier.info", "http://www.arbousier.info"
+        %div.footer_content
+          = Settings.site_name
+          = link_to "Arbousier.info", "http://www.arbousier.info"
       %div.clear

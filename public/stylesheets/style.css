@@ -40,9 +40,9 @@ a {
   margin-bottom: 30px;
   background: #333333;
   color: #eeeeee;
-  -moz-box-shadow: 0px 10px 15px #111111;
-  -webkit-box-shadow: 0px 10px 15px #111111;
-  box-shadow: 0px 10px 15px #111111;
+  -moz-box-shadow: inset 0px 0px 15px 2px #222222, 5px 0px 20px 3px #111111, -5px 0px 20px 3px #111111;
+  -webkit-box-shadow: inset 0px 0px 15px 2px #222222, 5px 0px 20px 3px #111111, -5px 0px 20px 3px #111111;
+  box-shadow: inset 0px 0px 15px 2px #222222, 5px 0px 20px 3px #111111, -5px 0px 20px 3px #111111;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px; }
@@ -81,7 +81,11 @@ p.note {
 
 #footer {
   margin-top: 20px;
-  text-align: right; }
+  text-align: right;
+  padding-bottom: 15px; }
+
+.footer_content {
+  padding-right: 15px; }
 
 table tr {
   border: 1px solid white;
