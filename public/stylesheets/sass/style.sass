@@ -6,11 +6,15 @@ $form_bg: #444
 $main_bg: #DDD
 $content_bg: #333
 $link_color: #B6372C
+$short_bg: #DEC657
+$short_color: #DE5E07
 
 $shadow_1: inset 0px 0px 15px 2px #222
 $shadow_2: 0px 3px 5px #222
 $shadow_3: 5px 0px 20px 3px #111
 $shadow_4: -5px 0px 20px 3px #111
+$shadow_5: 5px 0px 20px 3px #000
+$shadow_6: -5px 0px 20px 3px #000
 
 $color_banner: #FFF
 
@@ -123,3 +127,78 @@ table th
 em.subtitle
   font-size: 12pt
   color: #555
+
+#twitter
+  position: absolute
+  right: 20px
+  width: 150px
+  top: 200px
+  background: #888
+  display: none
+  padding: 15px
+  -moz-border-radius: 10px
+  -webkit-border-radius: 10px
+  border-radius: 10px
+
+#twitter p, #twitter a
+  font-size: 9pt
+
+#twitter h2
+  font-size: 12pt
+  padding: 0
+  margin: 0
+
+#short
+  background: $short_bg
+  color: $short_color
+  -moz-text-shadow: $shadow_5, $shadow_6
+  -webkit-text-shadow: $shadow_5, $shadow_6
+  text-shadow: $shadow_5, $shadow_6
+  padding: 15px
+  padding-bottom: 5px
+  margin-top: 15px
+  -moz-border-radius: 10px
+  -webkit-border-radius: 10px
+  border-radius: 10px
+
+#short h2
+  margin-top: -5px
+  margin-left: 5px
+  margin-bottom: 0px
+  background: $short_color
+  color: $short_bg
+  -moz-border-radius: 10px
+  -webkit-border-radius: 10px
+  border-radius: 10px
+  width: 15px
+  padding: 5px
+  padding-left: 10px
+  padding-top: 10px
+  padding-bottom: 0px
+  float: left
+  margin-right: 25px
+
+div#toggle_short
+  text-align: right
+
+div#toggle_long
+  background: $short_bg
+  color: $short_color
+  -moz-text-shadow: $shadow_5, $shadow_6
+  -webkit-text-shadow: $shadow_5, $shadow_6
+  text-shadow: $shadow_5, $shadow_6
+  padding: 15px
+  padding-bottom: 5px
+  margin-top: 15px
+  -moz-border-radius: 10px
+  -webkit-border-radius: 10px
+  border-radius: 10px
+  padding-top: 7px
+  text-align: center
+  display: none
+  width: 150px
+  position: absolute
+  left: 850px
+
+#long
+  display: none

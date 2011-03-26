@@ -107,3 +107,78 @@ table th {
 em.subtitle {
   font-size: 12pt;
   color: #555555; }
+
+#twitter {
+  position: absolute;
+  right: 20px;
+  width: 150px;
+  top: 200px;
+  background: #888888;
+  display: none;
+  padding: 15px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+#twitter p, #twitter a {
+  font-size: 9pt; }
+
+#twitter h2 {
+  font-size: 12pt;
+  padding: 0;
+  margin: 0; }
+
+#short {
+  background: #dec657;
+  color: #de5e07;
+  -moz-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  -webkit-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  padding: 15px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+#short h2 {
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  background: #de5e07;
+  color: #dec657;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  float: left;
+  margin-right: 25px; }
+
+div#toggle_short {
+  text-align: right; }
+
+div#toggle_long {
+  background: #dec657;
+  color: #de5e07;
+  -moz-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  -webkit-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  padding: 15px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding-top: 7px;
+  text-align: center;
+  display: none;
+  width: 150px;
+  position: absolute;
+  left: 850px; }
+
+#long {
+  display: none; }

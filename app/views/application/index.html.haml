@@ -1,145 +1,171 @@
-%div.grid_14.prefix_1
+%div.grid_12.prefix_2
 
-  %div.zap
-    %h2 Quoi ?
-
-    %ul
-      %li un lieu partagé de travail
-      %li un esprit détendu, ouvert, hétérogène et mixte (penser open space, les canap' en plus, avec les jeux de carte du photographe freelance et les figurines de l'admin unix, ...)
-      %li une connection internet correcte (en up et down, dépendra du lieu)
-      %li peut être des services supplémentaires (stockage sécurisé de données, etc ...)
-      %li un espace de travail qui soit aussi un espace d'échange et de partage
-      %li un espace qui soit plus dans l'esprit d'une collocation que d'une simple location d'un coin de table, d'une chaise et d'une connection wifi
-
-  %div.zap
-    %h2 Qui ?
-
-    %ul
-      %li des indépendants qui aiment bien bosser de chez eux mais qui aiment aussi bosser avec des gens de divers horizons
-      %li des télé-travailleurs qui aiment bien bosser avec des collègues, même s'ils ne sont pas de la même société qu'eux
-      %li de très petite entreprise pour les mêmes raisons que les deux précédents (< 5 personnes)
-      %li des étudiants en thèse qui cherchent un espace un peu atypique pour bosser
-      %li des personnes dont le travail est "portable"
-
-    %p Pas de domaine spécifique non plus : informatique, graphisme, design, physique, lettres, ...
-
-
-  %div.zap
-    %h2 Pourquoi ?
-
-    %p Bosser chez soi c'est sympa, mais être avec des gens favorise un esprit d'émulation, la créativité et les projets.
-
-    %p
-      = link_to "IndyHall", "http://www.indyhall.org"
-      , un espace de coworking à Philadephie (USA) liste notament les points suivants dans leur faq :
-
-    %div.citation
+  %div#short
+    %div.zap
+      %h2 ?
       %ul
-        %li.citation
-          Collaboration: un des grands bénéfices du travail dans un espace de
+        %li un lieu partagé de travail dans un esprit détendu et ouvert
+        %li un espace qui soit plus proche d'une collocation que d'une location de coin de table
+        %li pour des indépendants, étudiants et TPE
+        %li dans Toulouse, à moins de 15 minutes à pieds d'un métro
+        %li
+          inspiré de
+          = link_to "IndyHall", "http://www.indyhall.org"
+          ,
+          = link_to "DevNuts", "http://www.devnuts.com/"
+          &
+          = link_to "NWC", "http://nwc.co/"
+      %div#toggle_short
+        = link_to "Dites m'en plus !", nil, :remote => true
+  %div#toggle_long
+    = link_to "Dites m'en moins !", nil, :remote => true
+  %div.clear
+
+%div.clear
+%div.grid_14.prefix_1
+  %div#long
+    %div.zap
+      %h2 Quoi ?
+
+      %ul
+        %li un lieu partagé de travail
+        %li un esprit détendu, ouvert, hétérogène et mixte (penser open space, les canap' en plus, avec les jeux de carte du photographe freelance et les figurines de l'admin unix, ...)
+        %li une connection internet correcte (en up et down, dépendra du lieu)
+        %li peut être des services supplémentaires (stockage sécurisé de données, etc ...)
+        %li un espace de travail qui soit aussi un espace d'échange et de partage
+        %li un espace qui soit plus dans l'esprit d'une collocation que d'une simple location d'un coin de table, d'une chaise et d'une connection wifi
+
+    %div.zap
+      %h2 Qui ?
+
+      %ul
+        %li des indépendants qui aiment bien bosser de chez eux mais qui aiment aussi bosser avec des gens de divers horizons
+        %li des télé-travailleurs qui aiment bien bosser avec des collègues, même s'ils ne sont pas de la même société qu'eux
+        %li de très petite entreprise pour les mêmes raisons que les deux précédents (< 5 personnes)
+        %li des étudiants en thèse qui cherchent un espace un peu atypique pour bosser
+        %li des personnes dont le travail est "portable"
+
+      %p Pas de domaine spécifique non plus : informatique, graphisme, design, physique, lettres, ...
+
+
+    %div.zap
+      %h2 Pourquoi ?
+
+      %p Bosser chez soi c'est sympa, mais être avec des gens favorise un esprit d'émulation, la créativité et les projets.
+
+      %p
+        = link_to "IndyHall", "http://www.indyhall.org"
+        , un espace de coworking à Philadephie (USA) liste notament les points suivants dans leur faq :
+
+      %div.citation
+        %ul
+          %li.citation
+            Collaboration: un des grands bénéfices du travail dans un espace de
+            %em coworking
+            est que vous rencontrerez toute sorte de gens dotés de toute sorte de connaissances.
+          %li.citation Ouverture: Nous croyons dans la transparence et l'ouverture. Dans un monde où les gens sont libres mais pas les idées seulement quelques uns en tirent profit. Lorsque les idées sont libres alors tout le monde en tire bénéfice. Ainsi nous encourageons les espaces ouverts et les discussions. IndyHall est une Communauté basée sur la Confiance.
+          %li.citation
+            Communauté : les connections et l'entraide fleurissent ici. C'est important que tous donnent et recoivent de la forte communauté (internationale) que le
+            %em coworking
+            est devenu.
+          %li.citation Accessibilité : Afin d'être complètement ouvert nous devons faire les efforts pour être accessible à tous. La diversité est au coeur du succès de notre communauté. Cela signifie que notre projet est de construire un espace qui soit accessible à la fois financièrement et physiquement. Nous sommes dédiés à ce principe et encourageons les commentaires pour nous permettre de le rendre encore plus accessible.
+          %li.citation Durabilité du projet : la durabilité est une mission double pour nous : non seulement le partage des ressources est généralement une pratique écologique pour les individus et les entreprises, mais nos bases entreprenariales sont basées sur des relations et échanges durables. Chaque décision est mesurée sur sa possibilité a être soutenue par la communauté sur le long terme.
+
+        %p.note
+          %em
+            extrait de 
+            = link_to "Indy Hall Coworking Faq", "http://www.indyhall.org/coworking-faqs/"
+
+    %div.zap
+      %h2 Comment ?
+
+      %p Deux possibilités s'offrent à nous :
+      %ul
+        %li
+          un espace de
           %em coworking
-          est que vous rencontrerez toute sorte de gens dotés de toute sorte de connaissances.
-        %li.citation Ouverture: Nous croyons dans la transparence et l'ouverture. Dans un monde où les gens sont libres mais pas les idées seulement quelques uns en tirent profit. Lorsque les idées sont libres alors tout le monde en tire bénéfice. Ainsi nous encourageons les espaces ouverts et les discussions. IndyHall est une Communauté basée sur la Confiance.
-        %li.citation
-          Communauté : les connections et l'entraide fleurissent ici. C'est important que tous donnent et recoivent de la forte communauté (internationale) que le
+          privé, pour un nombre restreint de personnes avec une grande majorité de permanents
+        %li
+          un espace de
           %em coworking
-          est devenu.
-        %li.citation Accessibilité : Afin d'être complètement ouvert nous devons faire les efforts pour être accessible à tous. La diversité est au coeur du succès de notre communauté. Cela signifie que notre projet est de construire un espace qui soit accessible à la fois financièrement et physiquement. Nous sommes dédiés à ce principe et encourageons les commentaires pour nous permettre de le rendre encore plus accessible.
-        %li.citation Durabilité du projet : la durabilité est une mission double pour nous : non seulement le partage des ressources est généralement une pratique écologique pour les individus et les entreprises, mais nos bases entreprenariales sont basées sur des relations et échanges durables. Chaque décision est mesurée sur sa possibilité a être soutenue par la communauté sur le long terme.
+          ouvert, avec des formules, façons IndyHall ou NWC
 
-      %p.note
-        %em
-          extrait de 
-          = link_to "Indy Hall Coworking Faq", "http://www.indyhall.org/coworking-faqs/"
+      %p L'un pouvant se transformer en l'autre en fonction des évolutions évidement, mais les deux n'impliquent pas les mêmes dynamiques. L'un se veut essentiellement une "colloc" l'autre peut être beaucoup plus large que ça et favoriser les passages, échanges, etc ...
 
-  %div.zap
-    %h2 Comment ?
+      %h3 Dans les deux cas
 
-    %p Deux possibilités s'offrent à nous :
-    %ul
-      %li
-        un espace de
-        %em coworking
-        privé, pour un nombre restreint de personnes avec une grande majorité de permanents
-      %li
-        un espace de
-        %em coworking
-        ouvert, avec des formules, façons IndyHall ou NWC
+      %ul
+        %li un espace principal avec une ou plusieurs grandes tablées sur lesquelles chacun peut s'installer plus ou moins sédentairement
+        %li un espace plus petit pour s'isoler pour une réunion ou un coup de fil
+        %li un espace détente avec un canapé et de quoi se faire des boissons chaudes
+        %li des tableaux blancs pour pouvoir laisser s'exprimer la créativité
 
-    %p L'un pouvant se transformer en l'autre en fonction des évolutions évidement, mais les deux n'impliquent pas les mêmes dynamiques. L'un se veut essentiellement une "colloc" l'autre peut être beaucoup plus large que ça et favoriser les passages, échanges, etc ...
-
-    %h3 Dans les deux cas
-
-    %ul
-      %li un espace principal avec une ou plusieurs grandes tablées sur lesquelles chacun peut s'installer plus ou moins sédentairement
-      %li un espace plus petit pour s'isoler pour une réunion ou un coup de fil
-      %li un espace détente avec un canapé et de quoi se faire des boissons chaudes
-      %li des tableaux blancs pour pouvoir laisser s'exprimer la créativité
-
-    %h3 Dans le cas d'un coworking fermé
+      %h3 Dans le cas d'un coworking fermé
     
-    %ul
-      %li 6 à 8 permanents, et quelques uns en non permanents (un jour à trois jours par semaine)
-      %li des formules suivants les usages, mais avec une forte préférence pour les permanents (au moins dans un premier temps) pour assurer le paiement du loyer
+      %ul
+        %li 6 à 8 permanents, et quelques uns en non permanents (un jour à trois jours par semaine)
+        %li des formules suivants les usages, mais avec une forte préférence pour les permanents (au moins dans un premier temps) pour assurer le paiement du loyer
 
-    %h3 Dans le cas d'un coworking ouvert
+      %h3 Dans le cas d'un coworking ouvert
 
-    %ul
-      %li pour un début : 10 à 15 personnes max pour ne pas se marcher dessus non plus (7 à 10 permanents (7/7), et environ autant à géométrie variable)
-      %li un système similaire à IndyHall ou NWC avec des formules suivants les usages de chacun : 1 jour de temps en temps, jusqu'à 3 jours par semaine, tous les jours de la semaine, la nuit ... avec des tarifs raisonnables dans les deux sens : accessible mais permettant d'assurer la pérénité du lieu à moyen et long terme.
+      %ul
+        %li pour un début : 10 à 15 personnes max pour ne pas se marcher dessus non plus (7 à 10 permanents (7/7), et environ autant à géométrie variable)
+        %li un système similaire à IndyHall ou NWC avec des formules suivants les usages de chacun : 1 jour de temps en temps, jusqu'à 3 jours par semaine, tous les jours de la semaine, la nuit ... avec des tarifs raisonnables dans les deux sens : accessible mais permettant d'assurer la pérénité du lieu à moyen et long terme.
 
-    %p
-      Je vous conseille la lecture de :
-      = link_to "Indy Hall Coworking FAQ", "http://indyhall.org/coworking-faqs/"
-      (anglais), la video expliquant la
-      = link_to "philosophie derrière citizen space", "http://citizenspace.us/about/our-philosophy/"
-      (anglais), la 
-      = link_to "FAQ du NWC", "http://nwc.co/faq/"
-      (anglais), et
-      = link_to "Coworking Lille", "http://www.coworkinglille.com/index.php"
-      (francais).
+      %p
+        Je vous conseille la lecture de :
+        = link_to "Indy Hall Coworking FAQ", "http://indyhall.org/coworking-faqs/"
+        (anglais), la video expliquant la
+        = link_to "philosophie derrière citizen space", "http://citizenspace.us/about/our-philosophy/"
+        (anglais), la 
+        = link_to "FAQ du NWC", "http://nwc.co/faq/"
+        (anglais), et
+        = link_to "Coworking Lille", "http://www.coworkinglille.com/index.php"
+        (francais).
 
-    %p Ce que comprendraient les formules :
-    %ul
-      %li place assise
-      %li un bureau
-      %li accès internet
-      %li boisson chaude à volonté (eau, thé, café) si vous fournissez votre mug (compris dans le prix en fait, ou bien ?)
-      %li accès aux évènements et réduction pour les boissons/repas lors de ces évènements
+      %p Ce que comprendraient les formules :
+      %ul
+        %li place assise
+        %li un bureau
+        %li accès internet
+        %li boisson chaude à volonté (eau, thé, café) si vous fournissez votre mug (compris dans le prix en fait, ou bien ?)
+        %li accès aux évènements et réduction pour les boissons/repas lors de ces évènements
 
-  %div.zap
-    %h2 Où ?
+    %div.zap
+      %h2 Où ?
 
-    %lu
-      %li dans Toulouse, si possible intra Muros, à moins de 15 minutes à pieds d'une station de métro et pas loin de petits restaus sympas
-      %li dans un appart, un loft, ancien entrepot, ou une maison
-      %li là où il y a un accès ADSL de qualité, voir, si possible, de la fibre optique
+      %lu
+        %li dans Toulouse, si possible intra Muros, à moins de 15 minutes à pieds d'une station de métro et pas loin de petits restaus sympas
+        %li dans un appart, un loft, ancien entrepot, ou une maison
+        %li là où il y a un accès ADSL de qualité, voir, si possible, de la fibre optique
 
-  %div.zap
-    %h2 Inscription
+    %div.zap
+      %h2 Inscription
 
-    %p Le projet commence juste, il nous faut donc commencer par essayer de se connaître, discuter des idées ci dessus, savoir qui serait partant pour des formules complètes (5j/7) ou semi complètes (3j/7).
+      %p Le projet commence juste, il nous faut donc commencer par essayer de se connaître, discuter des idées ci dessus, savoir qui serait partant pour des formules complètes (5j/7) ou semi complètes (3j/7).
 
-    %p Une fois un noyau de personnes établi nous pourrons discuter des moyens financiers dont nous disposons pour commencer et quel taille de local nous pouvons chercher.
+      %p Une fois un noyau de personnes établi nous pourrons discuter des moyens financiers dont nous disposons pour commencer et quel taille de local nous pouvons chercher.
 
-    %p Une fois le projet lancé, un lieu trouvé, loué, et nous installés, nous pourrons voir comment intégrer de nouvelles personnes.
+      %p Une fois le projet lancé, un lieu trouvé, loué, et nous installés, nous pourrons voir comment intégrer de nouvelles personnes.
 
-    %p Evidement ceci est une aventure humaine, comme toute aventure humaine elle comportera des hauts et des bas, des couacs et des hourras, donc il faudra prévoir quelques règles de vie évidement ... Mais chaque chose en son temps ...
+      %p Evidement ceci est une aventure humaine, comme toute aventure humaine elle comportera des hauts et des bas, des couacs et des hourras, donc il faudra prévoir quelques règles de vie évidement ... Mais chaque chose en son temps ...
 
-  %div.zap
-    %h2 T'es qui ?
+    %div.zap
+      %h2 T'es qui ?
     
-    %p Thomas Riboulet, consultant indépendant en informatique. J'ai passé quelques temps à bosser ici et là, chez moi, dans des cafés, des bureaux, j'ai envie de créer un espace qui me convienne un peu mieux en y retrouvant l'ambiance open source en open space, avec une bonne touche de labo d'université ou de grande école.
+      %p Thomas Riboulet, consultant indépendant en informatique. J'ai passé quelques temps à bosser ici et là, chez moi, dans des cafés, des bureaux, j'ai envie de créer un espace qui me convienne un peu mieux en y retrouvant l'ambiance open source en open space, avec une bonne touche de labo d'université ou de grande école.
     
-    %p
-      Après avoir discuté de l'idée avec mes camarades de jeu de
-      = link_to "Toulouse.rb", "http://www.toulouserb.org"
-      reçus quelques échos de ceux ci et de leurs contacts, j'ai décidé de lancer ce petit site pour faire un tour de ceux qui sont intéressés.
+      %p
+        Après avoir discuté de l'idée avec mes camarades de jeu de
+        = link_to "Toulouse.rb", "http://www.toulouserb.org"
+        reçus quelques échos de ceux ci et de leurs contacts, j'ai décidé de lancer ce petit site pour faire un tour de ceux qui sont intéressés.
 
   %div.zap
   
     %h2 On signe où ?
 
+    %p#short_notice
+      Le projet en est en phase d'étude, nous cherchons à regrouper les personnes intéressées.
     %p
       Si vous êtes intéressé
       = link_to "inscrivez vous !", new_subscriber_path
