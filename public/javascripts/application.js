@@ -16,7 +16,7 @@ $(document).ready(function() {
 			var user = tweet.from_user;
 			var user_link = "http://twitter.com/#!/" + user;
 			var post_link = user_link + "/statuts/" + tweet.id_str;
-			var item = "<p><a href='"+ user_link +"'>@"+user+"</a> : "+post+"</p>";
+			var item = "<p><a href='"+ user_link +"'>@"+user+"</a> : <a class='tweet' href='"+post_link+"'>"+post+"</a></p>";
 		  $("#twitter").append(item);
 		});
 	});

@@ -112,7 +112,7 @@ em.subtitle {
   position: absolute;
   right: 20px;
   width: 150px;
-  top: 200px;
+  top: 220px;
   background: #888888;
   display: none;
   padding: 15px;
@@ -121,7 +121,8 @@ em.subtitle {
   border-radius: 10px;
   -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
-  box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222; }
+  box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  text-align: justify; }
 
 #twitter p, #twitter a {
   font-size: 9pt; }
@@ -129,7 +130,12 @@ em.subtitle {
 #twitter h2 {
   font-size: 12pt;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 5px; }
+
+#twitter a.tweet {
+  font-weight: normal;
+  color: #cccccc; }
 
 #short {
   background: #dec657;
