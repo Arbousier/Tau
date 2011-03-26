@@ -118,7 +118,10 @@ em.subtitle {
   padding: 15px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222; }
 
 #twitter p, #twitter a {
   font-size: 9pt; }
@@ -131,9 +134,9 @@ em.subtitle {
 #short {
   background: #dec657;
   color: #de5e07;
-  -moz-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
-  -webkit-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
-  text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   padding: 15px;
   padding-bottom: 5px;
   margin-top: 15px;
@@ -164,9 +167,9 @@ div#toggle_short {
 div#toggle_long {
   background: #dec657;
   color: #de5e07;
-  -moz-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
-  -webkit-text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
-  text-shadow: 5px 0px 20px 3px black, -5px 0px 20px 3px black;
+  -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
+  box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   padding: 15px;
   padding-bottom: 5px;
   margin-top: 15px;
