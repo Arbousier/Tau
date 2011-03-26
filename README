@@ -1,6 +1,6 @@
 Si vous voulez proposer des modifications :
 - faites un fork
-- éditez app/views/applications/index.html.haml
+- éditez app/views/application/index.html.haml
 - envoyez une pull request
 
 http://tau.arbousier.info
