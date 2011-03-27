@@ -139,7 +139,7 @@ em.subtitle {
 
 #short {
   background: #dec657;
-  color: #de5e07;
+  color: #de3c09;
   -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
@@ -154,7 +154,7 @@ em.subtitle {
   margin-top: -5px;
   margin-left: 5px;
   margin-bottom: 0px;
-  background: #de5e07;
+  background: #de3c09;
   color: #dec657;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -172,7 +172,7 @@ div#toggle_short {
 
 div#toggle_long {
   background: #dec657;
-  color: #de5e07;
+  color: #de3c09;
   -moz-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   -webkit-box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
