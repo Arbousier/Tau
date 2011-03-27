@@ -1,36 +1,36 @@
 !!!
 %html
-%head
-%title= Settings.site_name
-%link{:href => "http://fonts.googleapis.com/css?family=Quattrocento", :rel => "stylesheet", :type => "text/css"}
-%link{:href => "http://fonts.googleapis.com/css?family=Permanent+Marker", :rel => "stylesheet", :type => "text/css"}
-%link{:href => "http://fonts.googleapis.com/css?family=Expletus+Sans:500", :rel => "stylesheet", :type => "text/css"}
-%link{:href => "http://fonts.googleapis.com/css?family=Indie+Flower", :rel => "stylesheet", :type => "text/css"}
-%link{:href => "http://fonts.googleapis.com/css?family=Cuprum", :rel => "stylesheet", :type => "text/css"}
-= stylesheet_link_tag "reset.css"
-= stylesheet_link_tag "text.css"
-= stylesheet_link_tag "960.css"
-= stylesheet_link_tag "style"
-= javascript_include_tag "jquery.js", "rails.js", "application.js"
-= csrf_meta_tag
-%body
+  %head
+    %title= Settings.site_name
+    %link{:href => "http://fonts.googleapis.com/css?family=Quattrocento", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Permanent+Marker", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Expletus+Sans:500", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Indie+Flower", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Cuprum", :rel => "stylesheet", :type => "text/css"}
+    = stylesheet_link_tag "reset.css"
+    = stylesheet_link_tag "text.css"
+    = stylesheet_link_tag "960.css"
+    = stylesheet_link_tag "style"
+    = javascript_include_tag "jquery.js", "rails.js", "application.js"
+    = csrf_meta_tag
+  %body
 
-  %div.container_16{:id => "main_grid"}
-    %div#twitter
-      %h2 #taucw@twitter
-    %div#banner
-      %div.grid_16
-        %h1= link_to "&#964;".html_safe, root_url
-        %div.grid_6.alpha.prefix_1
-          %em.subtitle 	&#952; + 11 = &#964;
-        = notice
-        = alert
+    %div.container_16{:id => "main_grid"}
+      %div#twitter
+        %h2 #taucw@twitter
+      %div#banner
+        %div.grid_16
+          %h1= link_to "&#964;".html_safe, root_url
+          %div.grid_6.alpha.prefix_1
+            %em.subtitle 	&#952; + 11 = &#964;
+          = notice
+          = alert
+        %div.clear
+      = yield
       %div.clear
-    = yield
-    %div.clear
-    %div#footer
-      %div.grid_16.footer
-        %div.footer_content
-          = Settings.site_name
-          = link_to "Arbousier.info", "http://www.arbousier.info"
-      %div.clear
+      %div#footer
+        %div.grid_16.footer
+          %div.footer_content
+            = Settings.site_name
+            = link_to "Arbousier.info", "http://www.arbousier.info"
+        %div.clear
