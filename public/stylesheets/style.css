@@ -145,7 +145,7 @@ em.subtitle {
   box-shadow: 5px 0px 5px 0px #222222, -5px 0px 5px 0px #222222;
   padding: 15px;
   padding-bottom: 5px;
-  margin-top: 15px;
+  margin-top: -20px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; }
@@ -191,3 +191,17 @@ div#toggle_long {
 
 #long {
   display: none; }
+
+#logo_container {
+  position: absolute;
+  width: 960px; }
+
+#content {
+  padding-top: 100px; }
+
+#logo {
+  position: relative;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-top: -10px;
+  width: 100px; }

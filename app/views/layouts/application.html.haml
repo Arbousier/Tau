@@ -16,17 +16,19 @@
   %body
 
     %div.container_16{:id => "main_grid"}
+      %div#logo_container
+        %div#logo
+          = link_to image_tag("/images/tau_banner.png", :width => "90px"), root_url
+      %div.clear
       %div#twitter
         %h2 #taucw@twitter
       %div#banner
         %div.grid_16
-          %h1= link_to "&#964;".html_safe, root_url
-          %div.grid_6.alpha.prefix_1
-            %em.subtitle 	&#952; + 11 = &#964;
           = notice
           = alert
         %div.clear
-      = yield
+      %div#content
+        = yield
       %div.clear
       %div#footer
         %div.grid_16.footer
