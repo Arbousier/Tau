@@ -1,0 +1,18 @@
+= form_for @post do |f|
+  -if @post.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+      %ul
+        - @post.errors.full_messages.each do |msg|
+          %li= msg
+  %p
+    Title
+    = f.text_field :title
+
+  %p
+    Content (
+    = link_to "markdown", "http://daringfireball.net/projects/markdown/"
+    )
+  = f.text_area :content, :cols => 100, :lines => 80
+  .actions
+    = f.submit 'Save'

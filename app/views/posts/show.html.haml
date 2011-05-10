@@ -1,0 +1,20 @@
+%div.grid_12.prefix_2
+  %p#notice= notice
+
+  %h2
+    = @post.title
+    %span.date_s= @post.created_at.strftime("%d/%m/%Y")
+
+  = markdown(@post.content)
+
+  %script
+    var idcomments_acct = '0d7fc6a916efae67ca8357dc814edffc';
+    var idcomments_post_id;
+    var idcomments_post_url;
+  %span{ :id => "IDCommentsPostTitle", :style => "display:none"}
+  %script{ :type => 'text/javascript', :src => 'http://www.intensedebate.com/js/genericCommentWrapperV2.js'}
+
+  - if current_user
+    = link_to 'Edit', edit_post_path(@post)
+    \|
+    = link_to 'Back', posts_path
