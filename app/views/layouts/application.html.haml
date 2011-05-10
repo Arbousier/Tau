@@ -19,6 +19,10 @@
       %div#logo_container
         %div#logo
           = link_to image_tag("/images/tau_banner.png", :width => "90px"), root_url
+      %div#menu
+        = link_to "Index", root_url
+        \::
+        = link_to "Blog", posts_path
       %div.clear
       %div#twitter
         %h2 #taucw@twitter

@@ -9,6 +9,7 @@ class Ability
 
     if user.is_guest?(user)
       can [:create], Subscriber
+      can [:read], Post
     end
   end
 end

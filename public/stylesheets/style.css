@@ -108,6 +108,20 @@ em.subtitle {
   font-size: 12pt;
   color: #555555; }
 
+#menu {
+  position: relative;
+  left: 120px;
+  top: 20px; }
+
+span.date {
+  font-size: 11pt;
+  font-family: "Indie Flower", "Expletus Sans", "Myriad Pro", Corbel, "Helvetica Neue", Helvetica, "Lucida Grande", Verdana, sans-serif; }
+
+span.date_s {
+  font-size: 12pt;
+  font-family: "Cuprum", "Quattrocento", "Adobe Caslon Pro", "Hoefler Text", Garamond, serif;
+  color: #b6372c; }
+
 #twitter {
   position: absolute;
   right: 20px;

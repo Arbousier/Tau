@@ -44,3 +44,4 @@ gem "rspec-rails", ">= 2.2.1", :group => [:development, :test]
 gem "factory_girl", "1.3.3", :group => [:test]
 gem "devise"
 gem "cancan"
+gem "formatize"
